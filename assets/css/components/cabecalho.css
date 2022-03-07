@@ -18,3 +18,33 @@
 .cabecalho__carrinho {
     width: 1.75rem;
 }
+
+.cabecalho-menu{
+    display: none;
+}
+
+@media screen and (min-width: 1044px) {
+    .cabecalho {
+        max-width: 1203px;
+        align-items: center;
+    }
+
+    .cabecalho__carrinho {
+        display: none;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        color: var(--preto);
+        line-height: 1.2188rem;
+    }
+
+    .cabecalho-menu__item:nth-child(-n+4):after{
+        content: '/';
+        margin-left: .75rem;
+        margin-right: .75rem;
+    }
+
+
+
+}
