@@ -64,6 +64,7 @@
 
 
     .rodape__imagem {
+        display: block;
         width: 20.74rem;
         position: absolute;
         bottom: 0rem;
