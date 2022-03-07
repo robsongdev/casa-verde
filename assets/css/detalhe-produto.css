@@ -1,0 +1,24 @@
+.detalhe-produto {
+    padding-top: 2.5rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.detalhe-produto__imagem{
+    position: absolute;
+    bottom: 7.85rem;
+}
+
+.detalhe-produto__texto {
+    margin-top: 1,5rem;
+    margin-bottom: 10.875rem;
+}
+
+.detalhe-produto__botao {
+    margin-bottom: 1rem;
+}
+
+.botoes-compra {
+    position: relative;
+    z-index: 2;
+}
