@@ -1,0 +1,11 @@
+.descricao-produto {
+    background-color: var(--branco);
+    padding-top: 2.0625rem;
+    padding-bottom: 1.625rem;
+    margin-bottom: 5.5625rem;
+}
+
+.descricao-produto__leia-mais {
+    color: var(--amarelo);
+    line-height: 26px;
+}
