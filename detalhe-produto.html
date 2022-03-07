@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe do Produto</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/components/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/detalhe-produto.css">
+    <link rel="stylesheet" href="assets/css/components/botao.css">
+    <link rel="stylesheet" href="assets/css/descricao-produto.css">
+    <link rel="stylesheet" href="assets/css/produtos-similares.css">
+    <link rel="stylesheet" href="assets/css/components/produto.css">
+    <link rel="stylesheet" href="assets/css/components/rodape.css">
+
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="assets/img/logo.svg" alt="Logo da Casa Verde" class="cabecalho__logo">
+        <a href="#" aria-label="Carrinho de compras">
+            <img src="assets/img/icones/carrinho.svg" alt="Ícone do Carrinho de compras" class="cabecalho__carrinho">
+        </a>
+    </header>
+
+    <main>
+        <section class="container detalhe-produto">
+            <h2 class="titulo titulo--destaque">Cordyline fruticosa</h2>
+            <p class="produto__preco">R$ 20,00</p>
+
+            <p class="texto detalhe-produto__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reprehenderit explicabo delectus nisi quidem ullam culpa, sunt assumenda tenetur, nesciunt optio? Culpa iusto pariatur fuga consectetur! Possimus quibusdam illum optio!</p>
+
+            <img class="detalhe-produto__imagem" src="assets/img/Detalhe-do-produto 2.png" alt="Produto 2">
+            <div class="botoes-compra">
+                <button class="botao detalhe-produto__botao">comprar agora</button>
+                <button class="botao botao--alternativo">Alternativo</button>
+            </div>
+        </section>
+
+        <section class="container descricao-produto">
+            <h2 class="titulo titulo--destaque">Descrição do produto</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi adipisci, deleniti veritatis dignissimos eum accusamus vel? Consectetur necessitatibus, commodi, voluptatibus illum accusantium ex ad odit minima, iure enim maxime?</p>
+            
+            <a href="#" class="descricao-produto__leia-mais">Leia mais</a>
+        </section>
+
+        <section class="container produtos-similares ">
+            <h2 class="titulo alinhamento--meio">Conheça nossos produtos<span class="titulo--destaque">similares</span></h2>
+
+            <article class="produto">
+                <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                    <p class="produto__preco">R$ 20,00</p>
+                    <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                </div>
+            </article>
+            <article class="produto">
+                <img src="assets/img/produto-03.png" alt="Foto do produto" class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="produto__titulo titulo--destaque">
+                        Crassula ovata
+                    </h3>
+
+                    <p class="produto__preco">R$ 20,00</p>
+                    <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                </div>
+            </article>
+            <article class="produto">
+                <img src="assets/img/produto-04.png" alt="Foto do produto" class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="produto__titulo titulo--destaque">Cyperus rotundus</h3>
+                    <p class="produto__preco">R$ 20,00</p>
+                    <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="container rodape">
+        <img src="assets/img/logo.svg" alt="Logo da Casa Verde" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__social-midia" title="Facebook"><img src="assets/img/icones/facebook.svg" alt="Ícone do facebook"></a></li>
+            <li><a href="#" class="rodape__social-midia" title="Twitter"><img src="assets/img/icones/twitter.svg" alt="Ícone do twitter"></a></li>
+            <li><a href="#" class="rodape__social-midia" title="Instagram"><img src="assets/img/icones/instagram.svg" alt="Ícone do instagram"></a></li>
+        </ul>
+        
+        <address class="rodape__unidade texto">
+            <span class="rodape__unidade-titulo">Rio de Janeiro</span>
+            Rua Siqueira Campos, 171, 303<br>
+            Copacabana<br>
+            Telefone: (21) 99876-0099
+        </address>
+        <address class="rodape__unidade texto">
+            <span class="rodape__unidade-titulo">São Paulo</span>
+            Rua Anita Garibari, 33, 13<br>
+            Sé<br>
+            Telefone: (11) 99875-2201
+        </address>
+    </footer>
+</body>
+</html>
