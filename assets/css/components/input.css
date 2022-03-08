@@ -21,3 +21,9 @@
 .input--email {
     background-image: url(../../img/icones/mail.svg);
 }
+
+@media screen and (min-width: 1044px) {
+    .input {
+        margin-bottom: 0;
+    }
+}
