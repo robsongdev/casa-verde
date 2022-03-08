@@ -48,4 +48,8 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .titulo--destaque-desktop{
+        font-size: var(--tamanho-titulo-destaque-desktop);
+    }
 }
