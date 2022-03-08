@@ -22,7 +22,55 @@
     right: 0;
 }
 
+.chamada__imagem--desktop {
+    display: none;
+}
+
+.chamada__splash--desktop {
+    display: none;
+}
+
 .chamada__formulario {
     position: relative;
     z-index: 2;
+}
+
+@media screen and (min-width: 1044px) {
+    .chamada {
+        width: 100vw;
+        padding-left: 22.5rem;
+        padding-top: 9.375rem;
+        padding-bottom: 14.25rem;
+        background-image: none;
+    }
+
+    .chamada__imagem {
+        display: none;
+    }
+
+    .chamada__imagem--desktop {
+        display: block;
+        width: 787px;
+        position: absolute;
+        top: -8rem;
+        right: 13rem;
+        z-index: -1;
+    }
+
+    .chamada__splash--desktop {
+        display: block;
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        z-index: -2;
+    }
+
+    .chamada__formulario {
+        display: flex;
+        width: 36.5625rem;
+    }
+
+    .chamada .titulo--destaque, .chamada .chamada__texto {
+        width: 30.0625rem;
+    }
 }
