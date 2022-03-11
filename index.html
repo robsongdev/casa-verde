@@ -16,12 +16,13 @@
     <link rel="stylesheet" href="assets/css/como-conseguir.css">
     <link rel="stylesheet" href="assets/css/components/produto.css">
     <link rel="stylesheet" href="assets/css/ofertas.css">
+    <link rel="stylesheet" href="assets/css/comentarios.css">
+    <link rel="stylesheet" href="assets/css/videos.css">
     <link rel="stylesheet" href="assets/css/components/video.css">
     <link rel="stylesheet" href="assets/css/components/rodape.css">
 
 </head>
 <body>
-    <img src="assets/img/splash-chamada-desktop.png" alt="" class="chamada__splash--desktop">
     <header class="cabecalho container">
         <img src="assets/img/logo.svg" alt="Logo da Casa Verde" class="cabecalho__logo">
         <a href="#" aria-label="Carrinho de compras">
@@ -52,6 +53,7 @@
         </section>
 
         <section class="container como-conseguir">
+            <img class="como-conseguir__imagem" src="assets/img/planta-comoConseguir.png" alt="planta exemplo">
             <article class="cartao">
                 <h2 class="titulo alinhamento--meio">Como conseguir<span class="titulo--destaque">minha planta</span></h2>
     
@@ -75,7 +77,7 @@
         <section class="container ofertas">
             <h2 class="titulo alinhamento--meio">Conheça nossos<span class="titulo--destaque titulo--destaque-desktop">produtos</span></h2>
 
-            <ul>
+            <ul class="produtos">
                 <li class="produto">
                     <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__imagem">
                     <div class="produto__conteudo">
@@ -132,11 +134,31 @@
                 </li>
             </ul>
         </section>
+        <section class="comentarios">
+            <article class="comentario">
+                <img class="comentario__imagem" src="assets/img/perfil-comentario-1.png" alt="Foto do cliente">
+                <div class="comentario__conteudo">
+                    <h3 class="titulo titulo--destaque">Não acredite em nós<br>veja o que os clientes tem a dizer</h3>
+                    <span class="comentario__icone"></span>
+                    <p class="texto comentario__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, quos nemo voluptas quo rerum fugit cupiditate recusandae repellat magni necessitatibus tempore quia maiores rem, explicabo eveniet itaque reiciendis, obcaecati deserunt?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt inventore aperiam explicabo laborum eum ea, quisquam sapiente optio vel, quis fuga, asperiores delectus nobis necessitatibus modi nihil veritatis molestiae dolor!</p>
 
+                    <div class="cliente">
+                        <h3 class="cliente__nome">Juliana Ferraz</h3>
+                        <p>Cliente desde 2018</p>
+                    </div>
+    
+                    <ul class="comentario__nav">
+                        <li><a href="#"><img src="assets/img/icones/seta-esquerda.svg" alt="seta para a asquerda"></a></li>
+                        <li><a href="#"><img src="assets/img/icones/seta-direita.svg" alt="seta para a direita"></a></li>
+                    </ul>
+
+                </div>
+            </article>
+        </section>
         <section class="container">
             <h2 class="titulo alinhamento--meio">Veja aqui nossos<span class="titulo--destaque titulo--destaque-desktop">vídeos</span></h2>
 
-            <ul>
+            <ul class="videos">
                 <li class="cartao-de-video container">
                     <div class="cartao-de-video__video"><img src="http://picsum.photos/272/252" alt="Capa do Vídeo"></div>
                     <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
