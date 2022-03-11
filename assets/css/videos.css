@@ -1,0 +1,11 @@
+
+@media screen and (min-width: 1044px) {
+    .videos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        max-width: 75.125rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
