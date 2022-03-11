@@ -27,6 +27,8 @@
     .cabecalho {
         max-width: 1203px;
         align-items: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .cabecalho__carrinho {
