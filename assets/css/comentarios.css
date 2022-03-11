@@ -1,0 +1,90 @@
+.comentarios {
+    display: none;
+}
+
+@media screen and (min-width: 1044px) {
+    .comentarios{
+        max-width: 97.5rem;
+        height: 41.3125rem;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+
+        background-image: url(../img/splash-comentarios.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        margin-bottom: 7.5rem;
+    }
+
+    .comentario {
+        display: flex;
+        align-items: center;
+        margin-left: 22.5rem;
+    }
+
+    .comentario__imagem {
+        width: 481px;
+        height: 562px;
+        
+    }
+
+    .comentario__conteudo {
+        display: grid;
+        row-gap: 2rem;
+        grid-template-columns: 6.375rem 1fr 7.25rem;
+        grid-template-rows:min-content min-content min-content;
+
+        margin-left: 2rem;
+
+        height: 562px;
+    }
+
+    .comentario__conteudo .titulo{
+        grid-column: span 3;
+    }
+
+
+    .comentario__icone {
+        display: block;
+        width: 4.5rem;
+        height: 4.5rem;
+    
+        border-radius: 50%;
+        background-color: var(--amarelo);
+        
+        background-image: url(../img/icones/aspas.png);
+        background-size: 2.875rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        
+        grid-row: span 2;
+        box-sizing: border-box;
+    }
+
+    .comentario__texto {
+        grid-column: span 2 ;
+    }
+
+    .cliente {
+        align-items: center;
+    }
+    .cliente__nome{
+        color: var(--preto);
+        font-size: var(--tamanho-destaque);
+    }
+
+    .comentario__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+
+    
+
+    
+
+}
