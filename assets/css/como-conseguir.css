@@ -1,3 +1,28 @@
 .como-conseguir {
     margin-bottom: 5.625rem;
 }
+.como-conseguir__imagem{
+    display: none;
+}
+
+@media screen and (min-width: 1044px) {
+    .como-conseguir{
+        display: flex;
+        width: 62.1875rem;
+        height: 440px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .como-conseguir__imagem{
+        display: block;
+        width: 585px;
+    }
+
+    .como-conseguir .cartao {
+        width: 100%;
+    }
+
+    
+    
+}
