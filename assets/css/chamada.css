@@ -37,11 +37,11 @@
 
 @media screen and (min-width: 1044px) {
     .chamada {
-        width: 100vw;
-        padding-left: 22.5rem;
+        padding-left: calc(100vw - 90vw);
         padding-top: 9.375rem;
         padding-bottom: 14.25rem;
         background-image: none;
+        box-sizing: border-box;
     }
 
     .chamada__imagem {
