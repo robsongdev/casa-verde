@@ -2,8 +2,8 @@
 @import url(_reset.css);
 
 body {
-    background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
-    background-position: center;
+    background:center url(../../img/fundo-textura.png),center url(../../img/fundo-linhas.png) ;
+    /* background-position: center; */
     color: var(--cinza);
     font-family: var(--familia-corpo);
     font-size: var(--tamanho-corpo);
@@ -44,9 +44,8 @@ body {
 
 @media screen and (min-width: 1044px) {
     body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        background:top -4rem right no-repeat url(../../img/splash-chamada-desktop.png), center url(../../img/fundo-textura.png),center url(../../img/fundo-linhas.png);
+        
     }
 
     .titulo--destaque-desktop{
